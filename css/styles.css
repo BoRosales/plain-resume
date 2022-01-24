@@ -3,15 +3,34 @@ body {
 }
 
 hr {
-    border-style: dotted none none none;
-    border-color: gray; 
+    border-color: gray;
+    border-style: dotted none none none; 
     border-width: 5px;            
     width: 5%;
 }
 
-/* Header styles */
+.links:hover {
+    color: palevioletred;
+}
+
+/*********** Header styles ***********/
+
 h1, h3 {
     color: #1572A1
 }
 
-/* Table styles */
+/*********** Table styles ***********/
+
+.main-table {
+    border-spacing: 5px;
+    border-style: solid;
+}
+
+.child-table {
+    border-spacing: 10px;
+    border-style: dashed;
+}
+
+.summary-table {
+    border-spacing: 20px;
+}
